@@ -1,0 +1,123 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fcfcfc;
+    transition: height 0.4s ease 0s;
+    height: 100px;}
+.header__content{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__logo{;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+}
+.header__sponsors{
+    float: right;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 117px;
+    margin-top: 0px;
+}
+div {
+    display: block;
+}
+.header__navigation{
+    height: 64px;
+    line-height: 64px;
+    padding: 0 0 0 128px;
+    transition: all 0.4s;
+
+}
+li {
+    list-style-type: none;
+}
+.menu__container{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    width: 80%;
+    margin: auto;
+}
+.menu__container__li{
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+    color: #363636;
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: 27px;
+}
+.profile__seperator{
+    margin-top: 27px;
+}
+.profile__seperator__text{
+    color: #E2001A;
+    font-size: 13px;
+    white-space: nowrap;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 27px;
+
+
+
+}
+.left__mansory{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.right__mansory{
+    width: 30%;
+    background: #604734;
+    color: white;
+}
+.congStar__logo{
+    height: 47px;
+    transform: scale(0.7) translate(0, 12%);
+}
+.menu__container__li a{
+    color: #363636;
+    text-decoration: none;
+
+}
+.redColor{
+    color: #E2001A;
+}
+
+.card_right{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+.avatar{
+    width: 100%;
+}
+.card_left{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 32%;
+}
